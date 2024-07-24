@@ -1,0 +1,27 @@
+body{
+  background-color: rgba(0, 0, 255, 0.7);
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+  border: 1px solid black;
+  margin: 5px;
+  color: white;
+}
+
+.box.tre{
+  background-color: red;
+}
+
+.box.cinque{
+  background-color: green;
+}
+
+.box.entrambe{
+  background-color: orange;
+}
